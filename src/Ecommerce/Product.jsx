@@ -27,9 +27,6 @@ function Product(){
         });
     }, []);
 
-    
-
-
     function handleProductClick(product){
         navigate('product/'+product.id);   
     }
